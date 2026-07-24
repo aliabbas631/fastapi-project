@@ -1,0 +1,31 @@
+.post-card{
+
+    background:var(--color-surface);
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-lg);
+
+    padding:1.5rem;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:.8rem;
+
+}
+
+.post-card small{
+
+    color:var(--color-text-secondary);
+
+}
+
+.post-actions{
+
+    display:flex;
+
+    gap:1rem;
+
+}

@@ -1,0 +1,23 @@
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:1.2rem 2rem;
+
+    background:var(--color-surface);
+
+    border-bottom:1px solid var(--color-border);
+
+}
+
+.navbar div{
+
+    display:flex;
+
+    gap:1rem;
+
+}
