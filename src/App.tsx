@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Register from "./pages/Register";
 import EditPost from "./pages/EditPost";
+import PostDetails from "./pages/PostDetails";
 
 export default function App() {
 
@@ -45,6 +46,15 @@ export default function App() {
                             <Posts/>
                         </div>
 
+                    </ProtectedRoute>
+                }
+            />
+
+            <Route
+                path="/posts/:id"
+                element={
+                    <ProtectedRoute>
+                        <PostDetails />
                     </ProtectedRoute>
                 }
             />
