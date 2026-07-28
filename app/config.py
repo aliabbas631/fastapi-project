@@ -17,7 +17,7 @@ from pydantic_settings import BaseSettings
 # settings = Settings()
 
 class Dburl(BaseSettings):
-    dburll: str
+    DATABASE_URL: str
 
     class Config:
         env_file = ".env"
