@@ -15,3 +15,9 @@ class Settings(BaseSettings):
         env_file = ".env"
 
 settings = Settings()
+
+class dburl(BaseSettings):
+    dburll: str
+
+    class Config:
+        env_file = ".env"
